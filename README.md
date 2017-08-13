@@ -13,3 +13,5 @@
 ## 工具
 - [win10下「CapsLock」与左「Ctrl」互换](https://github.com/nineSean/blog/issues/6)
 - [npm命令记录](https://github.com/nineSean/blog/issues/7)
+- [命令行Tips](https://github.com/nineSean/blog/issues/8)
+
