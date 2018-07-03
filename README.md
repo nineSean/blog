@@ -15,3 +15,7 @@
 - [npm命令记录](https://github.com/nineSean/blog/issues/7)
 - [命令行Tips](https://github.com/nineSean/blog/issues/8)
 
+## 刷题
+- [移除数组中的元素](./doc/移除数组中的元素.md)
+
+
