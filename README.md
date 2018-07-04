@@ -9,6 +9,7 @@
 
 ## 笔记
 - [前端工程师的入门与进阶(justjavac)](https://github.com/nineSean/blog/issues/3)
+- [TDZ小结](./doc/TDZ小结.md)
 
 ## 工具
 - [win10下「CapsLock」与左「Ctrl」互换](https://github.com/nineSean/blog/issues/6)
