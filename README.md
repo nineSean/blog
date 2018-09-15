@@ -31,7 +31,7 @@
 - <a href='./migration-doc/前端基础 （html 1）四.md'>前端基础 （html 1）四</a>
 - <a href='./migration-doc/前端基础 （html 2）五.md'>前端基础 （html 2）五</a>
 - <a href='./migration-doc/前端基础 （html 3）六.md'>前端基础 （html 3）六</a>
-- <a href='./migration-doc/前前端基础 （html 4）七.md'>前端基础 （html 4）七</a>
+- <a href='./migration-doc/前端基础 （html 4）七.md'>前端基础 （html 4）七</a>
 - <a href='./migration-doc/前端基础（CSS 选择器）八.md'>前端基础（CSS 选择器）八</a>
 - [前端基础（盒模型）九](./migration-doc/前端基础（盒模型）九.md)
 - [前端基础（浮动、定位）十](./migration-doc/前端基础（浮动、定位）十.md)
@@ -41,7 +41,7 @@
 - <a href='./migration-doc/前端基础（JS 语法）十六.md'>前端基础（JS 语法）十六</a>
 - [前端基础（函数）十七](./migration-doc/前端基础（函数）十七.md)
 - [前端基础（数组、字符串、数学函数）十八](./migration-doc/前端基础（数组、字符串、数学函数）十八.md)
-- [前端基础（时间对象、引用类型）十九](./migration-doc/前端基础（时间对象、引用类型）十九)
+- [前端基础（时间对象、引用类型）十九](./migration-doc/前端基础（时间对象、引用类型）十九.md)
 - [前端基础（闭包、定时器）二十](./migration-doc/前端基础（闭包、定时器）二十.md)
 - [前端基础（RegExp）二十一](./migration-doc/前端基础（RegExp）二十一.md)
 - [前端基础（DOM、事件）二十二](./migration-doc/前端基础（DOM、事件）二十二.md)
