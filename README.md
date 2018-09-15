@@ -3,7 +3,7 @@
 ### 学习笔记
 - [前端工程师的入门与进阶(justjavac)](https://github.com/nineSean/blog/issues/3)
 - [TDZ小结](./doc/TDZ小结.md)
-- [CSS的各种单位](./doc/CSS的各种单位.md)
+- [CSS的各种单位](./doc/CSS的各种单位)
 
 ### 刷题
 - [移除数组中的元素](./doc/移除数组中的元素.md)
@@ -22,4 +22,34 @@
 
 
 
+
+### 迁移之前blog
+
+- [前端基础（前端路引）一](./migration-doc/前端基础（前端路引）一.md)
+- [前端基础（打开浏览器的世界）二](./migration-doc/前端基础（打开浏览器的世界）二.md)
+- [前端基础（俯视HTML）三](./migration-doc/前端基础（俯视HTML）三.md)
+- [前端基础 （html 1）四](./migration-doc/前端基础 （html 1）四.md)
+- [前端基础 （html 2）五](./migration-doc/前端基础 （html 2）五.md)
+- [前端基础 （html 3）六](./migration-doc/前端基础 （html 3）六.md)
+- [前端基础 （html 4）七](./migration-doc/前端基础 （html 4）七.md)
+- [前端基础（CSS 选择器）八](./migration-doc/前端基础（CSS 选择器）八.md)
+- [前端基础（盒模型）九](./migration-doc/前端基础（盒模型）九.md)
+- [前端基础（浮动、定位）十](./migration-doc/前端基础（浮动、定位）十.md)
+- [前端基础（inline-block、BFC、边距合并）十一](./migration-doc/前端基础（inline-block、BFC、边距合并）十一.md)
+- [前端基础（负边距、三栏布局）十二](./migration-doc/前端基础（负边距、三栏布局）十二.md)
+- [前端基础（浏览器兼容）十三](./migration-doc/前端基础（浏览器兼容）十三.md)
+- [前端基础（JS 语法）十六](./migration-doc/前端基础（JS 语法）十六.md)
+- [前端基础（函数）十七](./migration-doc/前端基础（函数）十七.md)
+- [前端基础（数组、字符串、数学函数）十八](./migration-doc/前端基础（数组、字符串、数学函数）十八.md)
+- [前端基础（时间对象、引用类型）十九](./migration-doc/前端基础（时间对象、引用类型）十九)
+- [前端基础（闭包、定时器）二十](./migration-doc/前端基础（闭包、定时器）二十.md)
+- [前端基础（RegExp）二十一](./migration-doc/前端基础（RegExp）二十一.md)
+- [前端基础（DOM、事件）二十二](./migration-doc/前端基础（DOM、事件）二十二.md)
+- [前端基础（熟悉后端语言）二十三](./migration-doc/前端基础（熟悉后端语言）二十三.md)
+- [前端基础（jQuery DOM&事件）二十五](./migration-doc/前端基础（jQuery DOM&事件）二十五.md)
+- [stickup效果](./migration-doc/stickup效果.md)
+- [jQuery轮播](./migration-doc/jQuery轮播.md)
+- [瀑布流布局](./migration-doc/瀑布流布局.md)
+- [对象&原型](./migration-doc/对象&原型.md)
+- [this&原型链&继承](./migration-doc/this&原型链&继承.md)
 
