@@ -33,10 +33,10 @@
 - vh
   - 视窗高度
   - `1vh = 视窗高度/100`
-  
+
 - vw
   同理vh，视窗宽度
-  
+
 - vmax
   - `1vmax = max(vh, vw)/100`
 
@@ -44,8 +44,11 @@
   - `1vmin = vim(vh, vw)/100`
 
 #### percentage
-- `%`相对于父元素
-- `padding`相对于父元素`width`（可用于保持宽高比，如`padding-top: 50%`）
+- `width` `height`相对于父元素的`width` `height`
+- `font-size`相对于父元素的`font-size`
+- 特例：`padding` `margin`相对于父元素`width`（可用于保持宽高比，如`padding-top: 50%`）
+- `line-height`相对于自身的`font-size`
+- `vertical-align`相对于自身`line-height`
 
 
 
