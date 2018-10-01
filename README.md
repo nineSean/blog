@@ -3,7 +3,8 @@
 ### 学习笔记
 - [前端工程师的入门与进阶(justjavac)](https://github.com/nineSean/blog/issues/3)
 - [TDZ小结](./doc/TDZ小结.md)
-- [CSS的各种单位](./doc/CSS的各种单位)
+- [CSS的各种单位](./doc/CSS的各种单位.md)
+- [7种方式实现3栏布局](./doc/7种方式实现3栏布局.md)
 
 ### 刷题
 - [移除数组中的元素](./doc/移除数组中的元素.md)
