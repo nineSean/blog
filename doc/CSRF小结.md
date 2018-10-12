@@ -15,6 +15,7 @@
 
 - CSRF攻防
     1. 攻：网站B向网站A发送请求
+    
        攻：带用户网站A的Cookie
 
        防：禁止第三方网站带Cookie
@@ -25,6 +26,7 @@
        - [SameSite兼容性](https://caniuse.com/#search=samesite)
 
     2. 攻：不访问网站A前端
+    
        防：在前端页面加入验证信息，包括图形验证码、token
 
        > 图形验证码逻辑
@@ -36,6 +38,7 @@
        > 后端下发csrfToken：首先生成随机的数字字符串作为csrfToken的值，Cookie中添加该键值对；另外把该值放入隐藏表单模板中或者把key/value放入meta标签中的name/content属性保存（原理就是存放在网站A前端页面，CSRF是不访问网站A前端的，而且也无法读取用户Cookie）；服务端在收到请求时对比两个token值是否一致。
 
     3. 攻：伪造请求referer为网站B
+    
        防：验证referer，禁用第三方referer
 
        > referer验证逻辑
