@@ -8,6 +8,7 @@
 - [Promise核心原理浅析](./doc/Promise核心原理浅析.md)
 - [Vue响应式浅析](./doc/Vue响应式浅析.md)
 - [XSS小结](./doc/XSS小结.md)
+- [CSRF小结](./doc/CSRF小结.md)
 
 ### 刷题
 - [移除数组中的元素](./doc/移除数组中的元素.md)

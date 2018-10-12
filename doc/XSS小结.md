@@ -1,6 +1,6 @@
 ## XSS小结
 
-- Cross Site Scripting —— 跨站点脚本攻击
+- Cross Site Scripting — 跨站点脚本攻击
 - 分类
     - 反射型
         - 攻击脚本代码写在query中随请求发送到服务器，服务器解析query中的攻击代码放入模板再响应请求，浏览器执行攻击脚本
@@ -48,6 +48,9 @@
 
              > onclick onerror ...
 
-
+- 更多待深入
+    - CSP 
+        - Content Security Policy — 内容安全策略
 
 - [参考](https://www.imooc.com/learn/812)
+
