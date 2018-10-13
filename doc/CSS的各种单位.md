@@ -41,7 +41,7 @@
   - `1vmax = max(vh, vw)/100`
 
 - vmin
-  - `1vmin = vim(vh, vw)/100`
+  - `1vmin = min(vh, vw)/100`
 
 #### percentage
 - `width` `height`相对于父元素的`width` `height`
