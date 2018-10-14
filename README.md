@@ -12,9 +12,6 @@
 - [移动端开发](./doc/移动端开发.md)
 - [Cookie](./doc/Cookie.md)
 
-### 刷题
-- [移除数组中的元素](./doc/移除数组中的元素.md)
-
 ### 翻译
 - [网购需要缴税么？](https://github.com/nineSean/blog/issues/1)
 - [信仰（Faith与Belief）的差别](https://github.com/nineSean/blog/issues/2)
@@ -26,9 +23,6 @@
 - [win10下「CapsLock」与左「Ctrl」互换](https://github.com/nineSean/blog/issues/6)
 - [npm命令记录](https://github.com/nineSean/blog/issues/7)
 - [命令行Tips](https://github.com/nineSean/blog/issues/8)
-
-
-
 
 ### 迁移之前blog
 
