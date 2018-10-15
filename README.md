@@ -19,10 +19,8 @@
   - [回调介绍](https://github.com/nineSean/blog/issues/4)
   - [Promise](https://github.com/nineSean/blog/issues/5)
 
-### 工具
+### 系统
 - [win10下「CapsLock」与左「Ctrl」互换](https://github.com/nineSean/blog/issues/6)
-- [npm命令记录](https://github.com/nineSean/blog/issues/7)
-- [命令行Tips](https://github.com/nineSean/blog/issues/8)
 
 ### 迁移之前blog
 
