@@ -12,17 +12,7 @@
 - [移动端开发](./doc/移动端开发.md)
 - [Cookie](./doc/Cookie.md)
 
-### 翻译
-- [网购需要缴税么？](https://github.com/nineSean/blog/issues/1)
-- [信仰（Faith与Belief）的差别](https://github.com/nineSean/blog/issues/2)
-- Promises, async/await
-  - [回调介绍](https://github.com/nineSean/blog/issues/4)
-  - [Promise](https://github.com/nineSean/blog/issues/5)
-
-### 系统
-- [win10下「CapsLock」与左「Ctrl」互换](https://github.com/nineSean/blog/issues/6)
-
-### 迁移之前blog
+#### 迁移之前blog
 
 - [前端基础（前端路引）一](./migration-doc/前端基础（前端路引）一.md)
 - [前端基础（打开浏览器的世界）二](./migration-doc/前端基础（打开浏览器的世界）二.md)
@@ -51,4 +41,16 @@
 - [瀑布流布局](./migration-doc/瀑布流布局.md)
 - [对象&原型](./migration-doc/对象&原型.md)
 - [this&原型链&继承](./migration-doc/this&原型链&继承.md)
+
+### 翻译
+- [网购需要缴税么？](https://github.com/nineSean/blog/issues/1)
+- [信仰（Faith与Belief）的差别](https://github.com/nineSean/blog/issues/2)
+- Promises, async/await
+  - [回调介绍](https://github.com/nineSean/blog/issues/4)
+  - [Promise](https://github.com/nineSean/blog/issues/5)
+
+### 系统
+- [win10下「CapsLock」与左「Ctrl」互换](https://github.com/nineSean/blog/issues/6)
+
+
 
