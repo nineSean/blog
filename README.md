@@ -1,5 +1,8 @@
 # blog
 
+### Logic
+- [Introduction](./doc/logic/intro.md)
+
 ### Web前端学习
 - [前端工程师的入门与进阶(justjavac)](https://github.com/nineSean/blog/issues/3)
 - [TDZ小结](./doc/TDZ小结.md)
