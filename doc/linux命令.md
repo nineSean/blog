@@ -1,0 +1,60 @@
+## linux常用命令
+- 命令优先级
+    - `alias>内部命令>外部命令` 
+- 使用内部命令
+    - 用引号包住命令
+    - 在命令前加`\`
+    - `command 命令`
+- id
+    - 查看用户与组id
+- tty
+    - teletypewriter
+    - 查看终端文件名
+- who
+    - 查看所有运行终端
+- who am i
+    - 查看当前运行终端
+- w
+    - 查看所有登录用户以及他们在做什么
+- init
+    - 发送控制命令给初始化进程 （模式切换）
+        - init 3 以字符界面初始化
+        - init 5 以图形界面初始化
+- runlevel
+    - 查看之前及当前的初始化（模式切换）
+- startx
+    - 启动图形界面（注：非模式切换）
+- chvt
+    - change foreground virtual terminal
+- >
+    - 快速创建文件
+- $PS1
+    - 命令提示符格式
+    - 修改命令提示符格式
+        - vi /etc/profile.d/env.sh
+        - PS1="\[\u@\h \w\]\$"
+- type
+    - 查看命令类型和路径
+- which
+    - 查看命令路径
+- hash
+    - 查看内存中缓存的命令
+- date
+    - 系统时间
+- clock
+    - 硬件时间
+    - `clock -s` 以硬件时间为准，校准软件时钟
+    - `clock -w` 以系统时间为准，校准硬件时钟
+- timedatectl
+    - 查看时区相关
+- cal
+    - 查看日历
+- wall
+    - 广播
+- screen
+    - 会话共享
+- bc
+    - 计算器
+- df
+    - 查看硬盘空间使用情况
+
