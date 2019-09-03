@@ -1,0 +1,79 @@
+## linux文件管理
+
+- fhs
+- 根目录
+    - bin
+        - 可执行文件
+    - sbin
+        - system bin
+    - boot
+        - kernel
+        - 引导程序
+    - etc
+        - 关键配置文件，作用类似注册表
+    - lib64
+        - 库文件
+    - tmp
+        - 临时文件
+    - usr
+        - 用户文件
+    - mnt
+        - 挂载点
+    - media
+        - 挂载点
+        - GUI下自动把光盘挂载在media文件夹
+    - dev
+        - dev/zero
+            - 字符设备
+            - 顺序访问
+            - 无缓存
+        - dev/sda
+            - 硬件设备（块设备）
+            - 随机访问
+            - 有缓存
+    - var
+        - 可变数据
+        - var/log
+    - home
+        - 用户数据
+    - net
+    - misc
+        - 手动挂载光盘目录
+        - centos6.xx -> `cd /misc` -> `cd cd/` -> `df`
+    - srv
+        - 服务器数据
+    - proc
+        - 假的文件夹，映射内存数据（在内存而不在磁盘上）
+    - sys
+        - 硬件信息
+    - root
+        - root账号的家目录
+    - opt
+        - 第三方软件
+    - selinux
+        - 安全策略相关
+
+- 文件类型
+- 更改目录
+    - 相关环境变量
+        - PWD
+        - OLDPWD
+- 环境变量
+    - PS1
+    - PATH
+    - PWD
+    - OLDPWD
+    - HISTSIZE
+    - SHELL
+- 文件的三个时间
+    - `stat`查看
+    - 修改时间
+    - 访问时间
+    - 状态时间
+        - 元数据修改时间
+- `man 7 glob`
+    - 查看常用文件通配符
+
+
+
+
