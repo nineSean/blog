@@ -73,7 +73,14 @@
         - 元数据修改时间
 - `man 7 glob`
     - 查看常用文件通配符
-
+- 生成大文件
+    - `dd if=/dev/zero of=bigfile bs=1M count=800`
+- 删除大文件并且释放空间
+    - 使用后者
+    - `rm bigfile` -> `lsof | grep delete`查找占用删除文件的进程（导致未释放空间） -> 杀掉该进程`killall process`
+    - 创建同名空文件释放空间`> bigfile` -> `rm -f bigfile`
+- tree
+    - `tree -L 1`
 
 
 
