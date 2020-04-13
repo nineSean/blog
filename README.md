@@ -4,7 +4,7 @@
 - [Introduction](./doc/logic/intro.md)
 
 ### Web前端学习
-- [Node端与Web端带/不带var赋值的差异](./doc/Node端与Web端带/不带var赋值的差异.md)
+- [Node端与Web端带/不带var赋值的差异](./doc/Node端与Web端带:不带var赋值的差异.md)
 - [前端工程师的入门与进阶(justjavac)](https://github.com/nineSean/blog/issues/3)
 - [TDZ小结](./doc/TDZ小结.md)
 - [CSS的各种单位](./doc/CSS的各种单位.md)
