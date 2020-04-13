@@ -4,7 +4,12 @@
 - chrome version 80.0.3987.163
 - node v13.7.0
 
-## 由一道面试引发的糗事
+## TLDR
+- `type=module` script标签代码中的this为undefined时不转换为window。
+- `xxx = 123` 在Browser端会提升，但在Node端不提升。
+- Node端`.js`文件为一个模块，里面代码会被一个立即执行函数包裹，形成了一个闭包，实现了模块化；但是未声明变量赋值会造成全局变量，严禁。
+
+## 由一道面试题引发的糗事
 
 今天看到一道面试题是这样的：
 
@@ -16,11 +21,11 @@ name = 'hello'
 a.call()
 ```
 
-群友直接抛出为什么结果是`undefined`，不及细想，直接回到如下：
+群友直接抛出为什么结果是`undefined`，不及细想，直接回答如下：
 
-> call第一参数不传就是undefined，执行a.call() => 进入函数体 => this为undefined浏览器环境帮你换成window => 找window.name，a声明时的上下文中window.name为undefined（词法作用域）
+> call第一参数不传就是undefined，执行a.call() => 进入函数体 => this为undefined浏览器环境帮你换成window => 找window.name，<del>a声明时的上下文中window.name为undefined（词法作用域）<del>
 
-这人丢大发了，因为群友接着又问了这题的变种：
+这人丢大发了，群友接着又问了这题的变种：
 
 ```js
 function a(){
@@ -32,7 +37,7 @@ a.call()
 
 为啥还是`undefined`？
 
-这下引起重视，赶紧现在chrome上打印下看看，不论上下两种情况，都是打印`hello`啊，这不是把2个人的脸都打肿了么？
+这下引起重视，赶紧先在chrome上打印下看看，不论上下哪种情况，都是打印`hello`，这不是把2个人的脸都打肿了么？
 
 ## 思考
 
@@ -125,7 +130,7 @@ a.call()
 2. 函数声明`a`；
 3. `name = 'hello'`；
 4. `a.call()`执行，进入函数体，绑定函数体内的`this`为`undefined`，JS引擎转换`this`为`global`；
-5. 由于模块内的局部变量`name`不等于全局`global.name`，而`global.name`又未赋值，所以`global.name`为undefined。
+5. 由于模块内的局部变量`name`不等于全局`global.name`，而`global.name`又未赋值，所以`global.name`为`undefined`。
 
 
 ## 有不正之处，请斧正
