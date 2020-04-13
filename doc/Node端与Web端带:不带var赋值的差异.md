@@ -9,6 +9,7 @@
 - `xxx = 123` 在Browser端会提升，但在Node端不提升。
 - Node端`.js`文件为一个模块，里面代码会被一个函数包裹，利用函数作用域实现了模块化；但是未声明变量赋值会造成全局变量，严禁。
 
+
 ## 由一道面试题引发的糗事
 
 今天看到一道面试题是这样的：
@@ -61,7 +62,7 @@ a.call()
 ```
 
 1. 未声明变量直接赋值`name = 'hello'`，整个语句提升到顶部，`name`为全局变量；
-2. `a.call()`执行，进入函数体，绑定函数体内的`this`为`undefined`，直接`script`标签引入的情况下，浏览器转换`this`为`window`（注意：script标签添加了`type=module`属性后，浏览器不会转换`undefined`为`window`）；
+2. `a.call()`执行，绑定函数体内的`this`为`undefined`，进入函数体，直接`script`标签引入的情况下，浏览器转换`this`为`window`（注意：script标签添加了`type=module`属性后，浏览器不会转换`undefined`为`window`）；
 3. 打印`window.name`，即为`hello`。
 
 ### 带`var`
@@ -79,8 +80,8 @@ a.call()
 1. `var`变量声明提升；
 2. 函数声明`a`；
 3. `name = 'hello'`；
-4. `a.call()`执行，进入函数体，绑定函数体内的`this`为`undefined`，直接`script`标签引入的情况下，浏览器转换`this`为`window`；（注意：script标签添加了`type=module`属性后，浏览器不会转换`undefined`为`window`）
-5. `var`声明的变量，浏览器挂在到了window上，`window.name`指向`var`声明的`name`，即为`hello`。
+4. `a.call()`执行，绑定函数体内的`this`为`undefined`，进入函数体，直接`script`标签引入的情况下，浏览器转换`this`为`window`；（注意：script标签添加了`type=module`属性后，浏览器不会转换`undefined`为`window`）
+5. `var`声明的变量，浏览器挂载到了window上，`window.name`指向`var`声明的`name`，即为`hello`。
 
 ## Node端分析
 
@@ -110,8 +111,8 @@ a.call()
 // hello
 ```
 
-1. `name = 'hello'`不会提升，但是执行到这一句的时候name会挂在到global对象上；
-2. `a.call()`执行，进入函数体，绑定函数体内的`this`为`undefined`，JS引擎转换`this`为`global`；
+1. `name = 'hello'`不会提升，但是执行到这一句的时候name会挂载到global对象上；
+2. `a.call()`执行，绑定函数体内的`this`为`undefined`，进入函数体，JS引擎转换`this`为`global`；
 3. 打印`global.name`，即为`hello`。
 
 ### 带`var`
@@ -129,10 +130,8 @@ a.call()
 1. `var`变量声明提升；
 2. 函数声明`a`；
 3. `name = 'hello'`；
-4. `a.call()`执行，进入函数体，绑定函数体内的`this`为`undefined`，JS引擎转换`this`为`global`；
+4. `a.call()`执行，绑定函数体内的`this`为`undefined`，进入函数体，JS引擎转换`this`为`global`；
 5. 由于模块内的局部变量`name`不等于全局`global.name`，而`global.name`又未赋值，所以`global.name`为`undefined`。
 
-
-## 有不正之处，请斧正
 
 
