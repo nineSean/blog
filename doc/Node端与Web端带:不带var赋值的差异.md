@@ -37,8 +37,8 @@ a.call()
 ## 思考
 
 - Web端打印还是符合预期的，那群友的问题肯定是出在Node端，赶紧Node端打印一波；
-- 不带`var`的打印'hello'；
-- 带`var`的打印undefined；
+- 不带`var`的打印`hello`；
+- 带`var`的打印`undefined`；
 - 第二种情况有点百思不得其解，得好好分析下。
 
 ## Web端分析
